@@ -16,11 +16,11 @@ int main() {
             else {
                 count++;
                 if(count % 2 != 0) {
-                    cout << toupper(line[i]);
+                    cout << char(toupper(line[i]));
                 }
                     
                 else {
-                    cout << tolower(line[i]);
+                    cout << char(tolower(line[i]));
                 }
                     
             }
